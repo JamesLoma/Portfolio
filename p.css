@@ -427,3 +427,16 @@ header .navbar ul li a:hover{
     z-index: 100;
     display: none;
 }
+
+footer{
+    margin-top: 2rem;
+    font-size: 2rem;
+    padding: 2.5rem;
+    text-align: center;
+    color: #fff;
+    background: #3333;
+}
+
+footer span{
+    color: var(--yellow);
+}
