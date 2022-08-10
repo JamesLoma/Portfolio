@@ -195,6 +195,9 @@ header .navbar ul li a:hover{
     .education .box-container .box{
         width: 100%;
     }
+    .experience .box-container .box{
+        width: 100%;
+    }
     .portfolio .box-container .box{
         width: 100%;
     }
@@ -331,6 +334,43 @@ header .navbar ul li a:hover{
     text-align: center;
     color: #fff;
     background: var(--yellow);
+}
+
+.experience .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
+
+.experience .box-container .box{
+    width: 27rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: .5rem solid #fff;
+    position: relative;
+}
+
+.experience .box-container .box span{
+    font-size: 1.3rem;
+    background: #222;
+    color: #fff;
+    border-radius: 5rem;
+    padding: 5 rem 2.5rem;
+}
+
+.experience .box-container .box h3{
+    font-size: 2rem;
+    color: #fff;
+    padding-top: 1.5rem;
+}
+
+.experience .box-container .box p{
+    font-size: 1.4rem;
+    color: #eee;
+    padding-top: 1rem 0;
 }
 
 .portfolio .box-container{
